@@ -1,0 +1,64 @@
+:root {
+  --bs-border-color: #d6d4ec !important;
+  --bs-emphasis-color: #0c073f;
+}
+body {
+  background-color: #0c073f;
+}
+.main .title {
+  color: #0c073f;
+}
+.main textarea {
+  min-height: 50px;
+  max-height: 150px;
+}
+.form-control {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+}
+.form-control:focus {
+  box-shadow: 0 0 5px 0 #0c073f !important ;
+  border-color: var(--bs-border-color);
+}
+
+.main .btn-outline-purple {
+  --bs-btn-color: #0c073f;
+  --bs-btn-border-color: var(--bs-border-color);
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: #0c073f;
+  --bs-btn-hover-border-color: #0c073f;
+  --bs-btn-active-bg: #0c073f;
+  --bs-btn-active-border-color: #0c073f;
+  --bs-btn-disabled-color: #0c073f;
+  --bs-btn-disabled-border-color: #0c073f;
+}
+.color-white {
+  color: white;
+}
+ .searchh {
+  box-shadow: 0 0 7px 0 #0c073f inset !important ;
+}
+
+.table {
+  --bs-table-color: var(--bs-emphasis-color);
+  --bs-table-bg: var(--bs-body-bg);
+  --bs-table-border-color: var(--bs-border-color);
+  --bs-table-striped-color: var(--bs-emphasis-color);
+  --bs-table-active-color: var(--bs-emphasis-color);
+  --bs-table-hover-color: var(--bs-emphasis-color);
+}
+
+
+@media (max-width: 575.98px) {
+  .table
+  {
+    width: 100% !important;
+  }
+ }
+
+ @media (max-width: 767.98px) { 
+  .main,
+  .searchh
+  {
+    width: 75% !important;
+  }
+  }
